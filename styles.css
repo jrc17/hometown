@@ -1,0 +1,106 @@
+/**
+--gunmetal: #2c363fff;
+--amaranth-purple: #a5243dff;
+--ivory: #f2f5eaff;
+--salmon-pink: #f4989cff;
+--sage: #bbc7a4ff;
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family:sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+.hero-section{
+    margin:0;
+    background-image:url("images/ben.jpg");
+    background-size:cover;  
+    /* height:443px; */
+    height:343px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color:#f2f5eaff;
+}
+
+h1{
+       
+    background-color:#2c363fff ;
+    padding:7px 15px;
+    border-radius:10px;
+    margin-bottom: 0;
+}
+
+h2{
+    background-color:  #A5243D;
+    /* background-color:rgb(78, 90, 54); */
+    width:380px;
+    font-size:19px;
+    padding:7px 32px;
+    border-radius:10px;
+    margin-top:17px;      
+}
+#activities{
+ background-color:#f2f5eaff;
+}
+.activities-section{
+    background-color:#bbc7a4ff;
+    height:378px;
+    color:#2c363fff ;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    padding-top:15px;  
+  
+}   
+
+h3{
+    margin-top:0;
+    font-size: 24px;   
+}
+
+h4{
+    font-size:16px;
+}
+.acts-topthree{
+    display: flex;
+    justify-content: space-evenly;   
+    padding:20px 0 0 0;  
+}
+
+.acts-img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.acts{
+    width:198px;
+}
+.profile-img{
+    width:50%;
+}
+.guide-card{
+    background-color: #f4989cff;
+    margin:50px auto;
+    width:400px;
+    
+    display:flex;
+   
+    padding:24px 15px;
+    border-radius:10px;
+    border-bottom:8px solid #2c363fff;
+
+    
+}
+.guide-aboutme{
+    text-align:center;
+    width:189px;
+    margin:auto 0 auto 10px;
+}
